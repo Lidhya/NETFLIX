@@ -22,7 +22,7 @@ function NavBar({setLogin}) {
           <li><i className="fa-solid fa-bell"></i></li>
         </ul>
         <div className="dropdown">
-        <img className='avatar' src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png" alt="" /><i class="fa-solid fa-caret-down"></i>
+        <img className='avatar' src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png" alt="" /><i className="fa-solid fa-caret-down"></i>
         <div className="dropdown-content">
           <p onClick={()=>{setLogin(false)}}>Logout</p>
         </div>
