@@ -1,5 +1,4 @@
-import { useRef } from "react";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "./Register.css";
 
 function Register({setLogin}) {
